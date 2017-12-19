@@ -5,6 +5,7 @@ export default class Main {
         let container = document.getElementById('container');
         if (container != null) {
             let display = new Display(container);
+            display.animate();
         }
     }
 }
